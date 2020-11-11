@@ -45,5 +45,6 @@ describe('calculator module', () => {
 
   describe('personMaker function', () => {
     // takes name and age, returns object with name prop and age prop
+    it('exists')
   })
 })
