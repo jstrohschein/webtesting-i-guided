@@ -12,5 +12,7 @@ describe('calculator', () => {
     expect(5).toBeLessThan(6)
     expect(5).toBeGreaterThan(4)
     expect(undefined).not.toBeDefined()
+    expect(null).toBeNull()
+    expect(5).toBeNaN()
   })
 })
