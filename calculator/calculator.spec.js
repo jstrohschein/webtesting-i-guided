@@ -22,18 +22,20 @@ describe('learning about tests, assertions and matchers', () => {
 describe('calculator module', () => {
   // TDD STEP 1 - tests are passing, so write
   // a small test that will not pass
-  test('sum function can add two numbers', () => {
-    expect(add(2, 3)).toBe(5)
-    expect(add(2, 2)).toBe(4)
-    expect(add(2, -2)).toBe(0)
-  })
+  describe('add function', () => {
+    it('adds two numbers', () => {
+      expect(add(2, 3)).toBe(5)
+      expect(add(2, 2)).toBe(4)
+      expect(add(2, -2)).toBe(0)
+    })
 
-  it('sum function can add two numbers', () => {
-    // setup
-    const expectedResult = 5
-    // act
-    const actualResult = add(2, 3)
-    // assert
-    expect(actualResult).toBe(expectedResult)
+    it('adds two numbers', () => {
+      // setup
+      const expectedResult = 5
+      // act
+      const actualResult = add(2, 3)
+      // assert
+      expect(actualResult).toBe(expectedResult)
+    })
   })
 })
