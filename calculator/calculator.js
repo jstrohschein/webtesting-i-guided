@@ -5,3 +5,5 @@ module.exports = {
 function add() {
   return null;
 }
+
+class Gaga { }
