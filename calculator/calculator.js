@@ -3,7 +3,9 @@ module.exports = {
 };
 
 function add() {
-  return null;
+  // TDD STEP 2 - write the least amount of code
+  // that will make the test pass
+  return 5;
 }
 
 class Gaga { }
