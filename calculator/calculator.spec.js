@@ -1,6 +1,6 @@
 const { add } = require('./calculator.js');
 
-describe('calculator', () => {
+describe('learning about tests, assertions and matchers', () => {
   it('sanity check', () => { // the test
     expect(2 + 3).toBe(5) // an assertion
     expect(2 + 2).toBe(4) // another assertion
@@ -17,4 +17,8 @@ describe('calculator', () => {
     expect({}).toEqual({})
     expect([1]).toEqual([1])
   })
+})
+
+describe('calculator module', () => {
+  
 })
