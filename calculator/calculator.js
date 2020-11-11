@@ -4,7 +4,7 @@ module.exports = {
 };
 
 function personMaker() {
-  return {}
+  return {};
 }
 
 function add(...numbers) {

@@ -51,5 +51,6 @@ describe('calculator module', () => {
     it('returns an object', () => {
       expect(personMaker('Joe', 26)).toBeInstanceOf(Object)
     })
+    
   })
 })
