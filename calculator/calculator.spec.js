@@ -42,4 +42,8 @@ describe('calculator module', () => {
       expect(add(2, 3, 4)).toBe(9)
     })
   })
+
+  describe('person builder', () => {
+    
+  })
 })
