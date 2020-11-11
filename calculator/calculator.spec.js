@@ -48,5 +48,8 @@ describe('calculator module', () => {
     it('exists', () => {
       expect(personMaker).toBeDefined()
     })
+    it('returns an object', () => {
+      expect(personMaker('Joe', 26))
+    })
   })
 })
