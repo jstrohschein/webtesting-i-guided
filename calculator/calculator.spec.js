@@ -52,7 +52,7 @@ describe('calculator module', () => {
       expect(personMaker('Joe', 26)).toBeInstanceOf(Object)
     })
     it('returns and object with a name prop', () => {
-      expect(personMaker('Tom', 23)) // ?
+      expect(personMaker('Tom', 23)).toHaveProperty('name')
     })
   })
 })
