@@ -7,6 +7,7 @@ describe('calculator', () => {
   })
 
   test('more sanity check', () => {
-    expect(0).toBeTruthy()
+    expect(0).not.toBeTruthy()
+    expect([]).not.toBeTruthy()
   })
 })
