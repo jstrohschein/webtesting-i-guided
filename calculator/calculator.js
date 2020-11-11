@@ -7,5 +7,7 @@ function add() {
   // that will make the test pass
   return 5;
 }
+// TDD STEP 3 - now you refactor the code
+// to make it nicer
 
 class Gaga { }
