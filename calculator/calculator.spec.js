@@ -30,7 +30,7 @@ describe('calculator module', () => {
     })
 
     it('adds two numbers', () => {
-      // setup
+      // stage
       const expectedResult = 5
       // act
       const actualResult = add(2, 3)
