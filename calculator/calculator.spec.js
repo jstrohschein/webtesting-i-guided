@@ -20,5 +20,7 @@ describe('learning about tests, assertions and matchers', () => {
 })
 
 describe('calculator module', () => {
-  
+  it('returns null', () => {
+    expect(add()).toBe(null)
+  })
 })
