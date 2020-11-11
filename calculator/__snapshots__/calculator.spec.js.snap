@@ -4,7 +4,7 @@ exports[`calculator module personMaker function snapshot 1`] = `
 Object {
   "age": 30,
   "foo": "bar",
-  "id": "hardcodedid",
+  "id": "hardcodedidmocked",
   "name": "Chris",
 }
 `;
