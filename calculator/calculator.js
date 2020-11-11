@@ -9,5 +9,3 @@ function add(a, b) {
 }
 // TDD STEP 3 - now you refactor the code
 // to make it nicer (the tests have your back)
-
-class Gaga { }
