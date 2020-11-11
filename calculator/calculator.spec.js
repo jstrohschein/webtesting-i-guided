@@ -24,5 +24,6 @@ describe('calculator module', () => {
   // a small test that will not pass
   test('sum function can add two numbers', () => {
     expect(add(2, 3)).toBe(5)
+    expect(add(2, 2)).toBe(4)
   })
 })
