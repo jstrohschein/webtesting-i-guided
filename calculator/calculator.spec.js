@@ -1,6 +1,8 @@
 const { add, personMaker } = require('./calculator.js');
 
-jest.mock('../data/helper.js')
+jest.mock('uuid', () => {
+  
+})
 
 describe('learning about tests, assertions and matchers', () => {
   it('sanity check', () => { // the test
