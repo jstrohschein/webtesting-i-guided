@@ -4,7 +4,7 @@ module.exports = {
 };
 
 function personMaker(name, age) {
-  return { name, age: 35 };
+  return { name, age };
 }
 
 function add(...numbers) {
