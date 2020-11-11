@@ -5,7 +5,7 @@ module.exports = {
 function add(...numbers) {
   // TDD STEP 2 - write the least amount of code
   // that will make the test pass
-  return numbers.reduce((acc, num) => {
+  return numbers.reduce((accumulator, num) => {
     return acc + num
   })
 }
