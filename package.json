@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Web Testing I Guided Project",
   "scripts": {
-    "test": "change this to use jest"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
