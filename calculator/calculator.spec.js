@@ -59,5 +59,8 @@ describe('calculator module', () => {
       expect(personMaker('Chris', 30))
         .toMatchObject({ name: 'Chris', age: 30 })
     })
+    it('snapshot', () => {
+      expect(personMaker('Chris', 30)).toMatchSnapshot()
+    })
   })
 })

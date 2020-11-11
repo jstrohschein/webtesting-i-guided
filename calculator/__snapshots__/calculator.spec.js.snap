@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`calculator module personMaker function snapshot 1`] = `
+Object {
+  "age": 30,
+  "name": "Chris",
+}
+`;
