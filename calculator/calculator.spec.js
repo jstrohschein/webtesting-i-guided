@@ -38,6 +38,8 @@ describe('calculator module', () => {
       expect(actualResult).toBe(expectedResult)
     })
 
-    it('adds any number of numbers')
+    it('adds any number of numbers', () => {
+      expect(add(2, 3, 4)).toBe(9)
+    })
   })
 })
