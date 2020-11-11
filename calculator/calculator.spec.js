@@ -14,6 +14,7 @@ describe('calculator', () => {
     expect(undefined).not.toBeDefined()
     expect(null).toBeNull()
     expect(Number('foo')).toBeNaN()
-    expect({}).toBe({})
+    expect({}).toEqual({})
+    expect([1]).toEqual([1])
   })
 })
