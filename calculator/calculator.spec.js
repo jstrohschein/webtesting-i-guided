@@ -27,4 +27,8 @@ describe('calculator module', () => {
     expect(add(2, 2)).toBe(4)
     expect(add(2, -2)).toBe(0)
   })
+
+  it('sum function can add two numbers', () => {
+    
+  })
 })
