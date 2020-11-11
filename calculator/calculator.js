@@ -1,6 +1,11 @@
 module.exports = {
   add,
+  personMaker,
 };
+
+function personMaker() {
+  
+}
 
 function add(...numbers) {
   // TDD STEP 2 - write the least amount of code

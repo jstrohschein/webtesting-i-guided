@@ -1,4 +1,4 @@
-const { add } = require('./calculator.js');
+const { add, personMaker } = require('./calculator.js');
 
 describe('learning about tests, assertions and matchers', () => {
   it('sanity check', () => { // the test
