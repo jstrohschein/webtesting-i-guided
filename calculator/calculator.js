@@ -3,8 +3,8 @@ module.exports = {
   personMaker,
 };
 
-function personMaker() {
-  return { name: 'Tom', age: 35 };
+function personMaker(name, age) {
+  return { name, age: 35 };
 }
 
 function add(...numbers) {
