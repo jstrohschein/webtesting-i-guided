@@ -20,5 +20,7 @@ describe('learning about tests, assertions and matchers', () => {
 })
 
 describe('calculator module', () => {
-  
+  test('sum function can add two numbers', () => {
+    expect(add(2, 3))
+  })
 })
