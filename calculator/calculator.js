@@ -1,4 +1,4 @@
-const uuid = require('')
+const uuid = require('uuid').v4
 
 module.exports = {
   add,
@@ -6,7 +6,7 @@ module.exports = {
 };
 
 function personMaker(name, age) {
-  return { id: '', name, age, foo: 'bar' };
+  return { id: uuid(), name, age, foo: 'bar' };
 }
 
 function add(...numbers) {
