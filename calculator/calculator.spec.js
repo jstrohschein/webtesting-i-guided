@@ -29,8 +29,11 @@ describe('calculator module', () => {
   })
 
   it('sum function can add two numbers', () => {
+    // setup
     const expectedResult = 5
+    // act
     const actualResult = add(2, 3)
+    // assert
     expect(actualResult).toBe(expectedResult)
   })
 })
