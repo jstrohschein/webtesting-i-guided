@@ -37,5 +37,5 @@ describe('calculator module', () => {
     expect(actualResult).toBe(expectedResult)
   })
 
-  
+  it('sum')
 })
