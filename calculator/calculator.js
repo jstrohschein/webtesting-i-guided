@@ -8,6 +8,6 @@ function add(a, b) {
   return a + b;
 }
 // TDD STEP 3 - now you refactor the code
-// to make it nicer
+// to make it nicer (the tests have you back)
 
 class Gaga { }
