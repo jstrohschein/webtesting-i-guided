@@ -49,7 +49,7 @@ describe('calculator module', () => {
       expect(personMaker).toBeDefined()
     })
     it('returns an object', () => {
-      expect(personMaker('Joe', 26))
+      expect(personMaker('Joe', 26)).toBeInstanceOf(Object)
     })
   })
 })
