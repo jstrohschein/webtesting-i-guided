@@ -10,6 +10,7 @@ describe('calculator', () => {
     expect(0).not.toBeTruthy()
     expect([]).toBeTruthy()
     expect(5).toBeLessThan(6)
-    expect(5).toBeLargerThan(6)
+    expect(5).toBeGreaterThan(4)
+    expect(undefined).not.toBeDefined()
   })
 })
