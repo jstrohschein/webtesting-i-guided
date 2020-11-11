@@ -51,8 +51,9 @@ describe('calculator module', () => {
     it('returns an object', () => {
       expect(personMaker('Joe', 26)).toBeInstanceOf(Object)
     })
-    it('returns and object with a name prop', () => {
+    it('returns and object with name and age props', () => {
       expect(personMaker('Tom', 23)).toHaveProperty('name')
+      expect(personMaker('Tom', 23)).toHaveProperty('age')
     })
   })
 })
