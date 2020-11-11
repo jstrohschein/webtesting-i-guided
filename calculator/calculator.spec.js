@@ -1,3 +1,5 @@
 const { add } = require('./calculator.js');
 
-describe()
+describe('calculator', () => {
+  it('sanity check')
+})
