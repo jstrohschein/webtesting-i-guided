@@ -1,7 +1,7 @@
 const { add, personMaker } = require('./calculator.js');
 
 jest.mock('uuid', () => {
-  
+  return { v4: }
 })
 
 describe('learning about tests, assertions and matchers', () => {
