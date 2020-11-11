@@ -55,9 +55,8 @@ describe('calculator module', () => {
       expect(personMaker('Tom', 23)).toHaveProperty('name')
       expect(personMaker('Tom', 23)).toHaveProperty('age')
     })
-    it('uses name a', () => {
-      expect(personMaker('Tom', 23)).toHaveProperty('name')
-      expect(personMaker('Tom', 23)).toHaveProperty('age')
+    it('uses name and age from args in the returned object', () => {
+      
     })
   })
 })
