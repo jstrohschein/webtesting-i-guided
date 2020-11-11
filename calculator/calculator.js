@@ -6,7 +6,7 @@ function add(...numbers) {
   // TDD STEP 2 - write the least amount of code
   // that will make the test pass
   return numbers.reduce((acc, num) => {
-    acc + num
+    return acc + num
   })
 }
 // TDD STEP 3 - now you refactor the code
