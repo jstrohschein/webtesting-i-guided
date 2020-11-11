@@ -1,5 +1,7 @@
 const { add, personMaker } = require('./calculator.js');
 
+jest.mock('../data/helper.js')
+
 describe('learning about tests, assertions and matchers', () => {
   it('sanity check', () => { // the test
     expect(2 + 3).toBe(5) // an assertion
