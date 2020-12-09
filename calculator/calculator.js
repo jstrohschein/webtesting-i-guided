@@ -2,6 +2,11 @@ module.exports = {
   add,
 };
 
-function add() {
-  return null;
+function add(x, y) {
+
+  return x + (y ? y : 0)
+}
+
+const subtract = (x,y) => {
+  return x - y;
 }
